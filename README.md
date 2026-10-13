@@ -6,7 +6,7 @@
 
 ## 稼働サンプル
 
-- **ブラウザで開く（可動サンプル）**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
+- **ブラウザで開く（稼働サンプル）**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
 
 開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら「プロジェクト削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、「JSON 読み込み」で読み込めます。
 
