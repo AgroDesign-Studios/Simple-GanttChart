@@ -9,6 +9,8 @@
 - **ブラウザで開く**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
 - **オフラインで使う**: [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) から `AgroDesign-Simple-GanttChart-v<バージョン>.html` をダウンロードし、ダブルクリックして開きます。インターネット接続は要りません。
 
+ブラウザで開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら「プロジェクト削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、「JSON 読み込み」で読み込めます。Releases のファイルにはサンプルは入っていません。
+
 対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、「English」で表示言語を切り替えられます。
 
 ## できること
@@ -44,6 +46,8 @@ A Gantt chart tool that runs entirely in your browser. Nothing to install, no ac
 
 - **Open in the browser**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
 - **Use offline**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) and double-click it. No internet connection is needed.
+
+The browser version opens with a sample chart (a web site launch project, with Japanese task names) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project.json`](sample/sample-project.json) and can be loaded with "Import JSON". The file under Releases contains no sample.
 
 Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and "English" / "日本語" switches the language.
 
