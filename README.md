@@ -7,7 +7,7 @@
 ## 使い方
 
 - **ブラウザで開く**: <https://agrodesign-studios.github.io/simple-ganttchart/>
-- **オフラインで使う**: [Releases](https://github.com/AgroDesign-Studios/simple-ganttchart/releases/latest) から `AgroDesign-Simple-GanttChart-v<バージョン>.html` をダウンロードし、ダブルクリックして開きます。インターネット接続は要りません。
+- **オフラインで使う**: [Releases](https://github.com/AgroDesign-Studios/simple-ganttchart/releases/latest) から `AgroDesign-Simple-GanttChart-v<バージョン>.html` をダウンロードし、ダブルクリックして開きます。インターネット接続は要りません。HTML ファイル 1 つだけで完全に動作します。データは、ブラウザ上（ローカル PC のみ）に保存され、サーバには保存されません。
 
 対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、「English」で表示言語を切り替えられます。
 
@@ -43,7 +43,7 @@ A Gantt chart tool that runs entirely in your browser. Nothing to install, no ac
 ## How to use
 
 - **Open in the browser**: <https://agrodesign-studios.github.io/simple-ganttchart/>
-- **Use offline**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/simple-ganttchart/releases/latest) and double-click it. No internet connection is needed.
+- **Use offline**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/simple-ganttchart/releases/latest) and double-click it. No internet connection is needed. The single HTML file is all it needs to run. Your data is saved in the browser (on your own PC only), never on a server.
 
 Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and "English" / "日本語" switches the language.
 
