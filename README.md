@@ -4,12 +4,17 @@
 
 *English follows below.*
 
+## 稼働サンプル
+
+- **ブラウザで開く（可動サンプル）**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
+
+開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら「プロジェクト削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、「JSON 読み込み」で読み込めます。
+
 ## 使い方
 
-- **ブラウザで開く**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
-- **オフラインで使う**: [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) から `AgroDesign-Simple-GanttChart-v<バージョン>.html` をダウンロードし、ダブルクリックして開きます。インターネット接続は要りません。
+- **最新版をダウンロード**: [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) から `AgroDesign-Simple-GanttChart-v<バージョン>.html` をダウンロードし、ダブルクリックして開きます。インターネット接続は要りません。ダウンロードしたファイルにサンプルは入っていません。
 
-ブラウザで開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら「プロジェクト削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、「JSON 読み込み」で読み込めます。Releases のファイルにはサンプルは入っていません。
+![週表示の画面（左が入力表、右がタイムライン）](images/screenshot-week.png)
 
 対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、「English」で表示言語を切り替えられます。
 
@@ -20,6 +25,10 @@
 - PDF・画像（PNG）への出力
 - JSON での書き出し・読み込み（バックアップ、別の PC への移行）
 - 「HTML 書き出し」: チャートを埋め込んだ HTML ファイルを作り、そのまま相手に渡せます
+
+出力画像のサンプル（サンプルのチャートを「画像出力 (PNG)」で書き出したもの）:
+
+![画像出力 (PNG) のサンプル](images/export-sample.png)
 
 ## データの保存場所
 
@@ -42,12 +51,17 @@ Copyright 2026 AgroDesign Studios
 
 A Gantt chart tool that runs entirely in your browser. Nothing to install, no account: it is a single HTML file.
 
+## Live sample
+
+- **Open in the browser (live sample)**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
+
+It opens with a sample chart (a web site launch project, with Japanese task names) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project.json`](sample/sample-project.json) and can be loaded with "Import JSON".
+
 ## How to use
 
-- **Open in the browser**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
-- **Use offline**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) and double-click it. No internet connection is needed.
+- **Download the latest version**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) and double-click it. No internet connection is needed. The downloaded file contains no sample.
 
-The browser version opens with a sample chart (a web site launch project, with Japanese task names) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project.json`](sample/sample-project.json) and can be loaded with "Import JSON". The file under Releases contains no sample.
+![Week view: the task grid on the left, the timeline on the right](images/screenshot-week.png)
 
 Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and "English" / "日本語" switches the language.
 
@@ -58,6 +72,10 @@ Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the b
 - Export to PDF and PNG
 - JSON export and import (backup, moving to another PC)
 - "Export HTML": makes an HTML file with your chart embedded, ready to hand to someone else
+
+Sample output (the sample chart saved with "Export image (PNG)"):
+
+![Sample of the PNG export](images/export-sample.png)
 
 ## Where your data lives
 
