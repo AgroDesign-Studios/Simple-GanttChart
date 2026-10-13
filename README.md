@@ -16,7 +16,7 @@
 
 ![週表示の画面（左が入力表、右がタイムライン）](images/screenshot-week.png)
 
-対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、「English」で表示言語を切り替えられます。
+対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、最上段の右端の「English」で表示言語を切り替えられます。
 
 ## できること
 
@@ -53,17 +53,17 @@ A Gantt chart tool that runs entirely in your browser. Nothing to install, no ac
 
 ## Live sample
 
-- **Open in the browser (live sample)**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
+- **Open in the browser (live sample)**: <https://agrodesign-studios.github.io/Simple-GanttChart/en/>
 
-It opens with a sample chart (a web site launch project, with Japanese task names) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project.json`](sample/sample-project.json) and can be loaded with "Import JSON".
+It opens with a sample chart (a web site launch project) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project-en.json`](sample/sample-project-en.json) and can be loaded with "Import JSON".
 
 ## How to use
 
 - **Download the latest version**: download `AgroDesign-Simple-GanttChart-v<version>.html` from [Releases](https://github.com/AgroDesign-Studios/Simple-GanttChart/releases/latest) and double-click it. No internet connection is needed. The downloaded file contains no sample.
 
-![Week view: the task grid on the left, the timeline on the right](images/screenshot-week.png)
+![Week view: the task grid on the left, the timeline on the right](images/screenshot-week-en.png)
 
-Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and "English" / "日本語" switches the language.
+Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and the "English" / "日本語" button at the right end of the first row switches the language.
 
 ## Features
 
@@ -75,7 +75,7 @@ Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the b
 
 Sample output (the sample chart saved with "Export image (PNG)"):
 
-![Sample of the PNG export](images/export-sample.png)
+![Sample of the PNG export](images/export-sample-en.png)
 
 ## Where your data lives
 
