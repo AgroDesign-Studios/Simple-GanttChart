@@ -1,0 +1,8 @@
+AgroDesign Simple GanttChart
+Copyright 2026 AgroDesign Studios
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+index.html bundles third-party open-source software (React, i18next, jsPDF
+and their dependencies). Each package's name, version and full licence text
+is embedded in the file and shown in its "License" dialog.
