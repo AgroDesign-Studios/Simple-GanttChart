@@ -8,7 +8,7 @@
 
 - **ブラウザで開く（稼働サンプル）**: <https://agrodesign-studios.github.io/Simple-GanttChart/>
 
-開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら「プロジェクト削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、「JSON 読み込み」で読み込めます。
+開くと、使い方の例としてサンプルのチャート（Web サイト公開プロジェクト）が表示されます。不要になったら、左の一覧の「…」から「削除」で消せます。同じデータは [`sample/sample-project.json`](sample/sample-project.json) にもあり、一覧の「ファイル開く (JSON)」で読み込めます。
 
 ## 使い方
 
@@ -23,8 +23,8 @@
 - タスクの開始日・終了日、依存関係（先行タスク）、グループ、進捗をもつガントチャートの作成
 - 日・週・月の表示切り替え、日本の祝日の表示
 - PDF・画像（PNG）への出力
-- JSON での書き出し・読み込み（バックアップ、別の PC への移行）
-- 「HTML 書き出し」: チャートを埋め込んだ HTML ファイルを作り、そのまま相手に渡せます
+- 「コピーを保存（データのみ）」と「ファイル開く (JSON)」による JSON ファイルでの保存・読み込み（バックアップ、別の PC への移行）
+- 「コピーを保存（アプリ含む）」: チャートを埋め込んだ HTML ファイルを作り、そのまま相手に渡せます
 
 出力画像のサンプル（サンプルのチャートを「画像出力 (PNG)」で書き出したもの）:
 
@@ -34,9 +34,9 @@
 
 入力した内容は、**お使いのブラウザの中（localStorage）にだけ**保存されます。サーバーには送信されません。
 
-- 別の PC や別のブラウザには引き継がれません。移行や共有には「JSON 書き出し」を使ってください。
-- ブラウザの閲覧データを消去すると、チャートも消えます。大事なチャートは JSON で書き出して保管してください。
-- 「全消去」は元に戻せません。
+- 別の PC や別のブラウザには引き継がれません。移行や共有には「コピーを保存（データのみ）」を使ってください。
+- ブラウザの閲覧データを消去すると、チャートも消えます。大事なチャートは「コピーを保存（データのみ）」で JSON ファイルにして保管してください。
+- 一覧の「…」→「削除」は元に戻せません。
 
 ## ライセンス
 
@@ -55,7 +55,7 @@ A Gantt chart tool that runs entirely in your browser. Nothing to install, no ac
 
 - **Open in the browser (live sample)**: <https://agrodesign-studios.github.io/Simple-GanttChart/en/>
 
-It opens with a sample chart (a web site launch project) that shows the features in use. Remove it with "Delete project" when you no longer need it. The same data is in [`sample/sample-project-en.json`](sample/sample-project-en.json) and can be loaded with "Import JSON".
+It opens with a sample chart (a web site launch project) that shows the features in use. Remove it with "…" → "Delete" in the project list on the left when you no longer need it. The same data is in [`sample/sample-project-en.json`](sample/sample-project-en.json) and can be loaded with "Open file (JSON)" in the project list.
 
 ## How to use
 
@@ -70,8 +70,8 @@ Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the b
 - Gantt charts with start and end dates, dependencies (predecessors), groups and progress
 - Day, week and month views; Japanese public holidays
 - Export to PDF and PNG
-- JSON export and import (backup, moving to another PC)
-- "Export HTML": makes an HTML file with your chart embedded, ready to hand to someone else
+- Saving and opening JSON files with "Save a copy (data only)" and "Open file (JSON)" (backup, moving to another PC)
+- "Save a copy (with app)": makes an HTML file with your chart embedded, ready to hand to someone else
 
 Sample output (the sample chart saved with "Export image (PNG)"):
 
@@ -81,9 +81,9 @@ Sample output (the sample chart saved with "Export image (PNG)"):
 
 Everything you enter is saved **only inside your browser (localStorage)**. Nothing is sent to a server.
 
-- Data does not follow you to another PC or browser. Use "Export JSON" to move or share a chart.
-- Clearing your browser's site data deletes your charts. Keep a JSON export of anything important.
-- "Clear all" cannot be undone.
+- Data does not follow you to another PC or browser. Use "Save a copy (data only)" to move or share a chart.
+- Clearing your browser's site data deletes your charts. Keep a "Save a copy (data only)" file of anything important.
+- Deleting a project ("…" → "Delete" in the list) cannot be undone.
 
 ## License
 
