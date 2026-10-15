@@ -16,7 +16,7 @@
 
 ![週表示の画面（左が入力表、右がタイムライン）](images/screenshot-week.png)
 
-対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、最上段の右端の「English」で表示言語を切り替えられます。
+対応ブラウザは Chrome / Edge / Firefox / Safari（デスクトップ）です。画面下部の「ヘルプ」に操作方法があり、チャート名と同じ行にある「English」で表示言語を切り替えられます。
 
 ## できること
 
@@ -63,7 +63,7 @@ It opens with a sample chart (a web site launch project) that shows the features
 
 ![Week view: the task grid on the left, the timeline on the right](images/screenshot-week-en.png)
 
-Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and the "English" / "日本語" button at the right end of the first row switches the language.
+Supported browsers: Chrome, Edge, Firefox and Safari on desktop. "Help" at the bottom of the page explains the controls, and the "English" / "日本語" button on the same line as the chart name switches the language.
 
 ## Features
 
